@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.lisyx.extendreports.pcOne">
+        <methods>
+          <include name="endReportTwo"/>
+          <include name="getResultTwo"/>
+          <include name="startReportTwo"/>
+          <include name="CotizadorTestTwo"/>
+        </methods>
+      </class> <!-- com.lisyx.extendreports.pcOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test3(failed)" parallel="tests">
+    <classes>
+      <class name="com.lisyx.extendreports.pcThree">
+        <methods>
+          <include name="CotizadorTestTwo"/>
+          <include name="startReportTwo"/>
+          <include name="endReportTwo"/>
+          <include name="getResultTwo"/>
+        </methods>
+      </class> <!-- com.lisyx.extendreports.pcThree -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.lisyx.extendreports.pcTwo">
+        <methods>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="CotizadorTestTwo"/>
+          <include name="getResultTwo"/>
+        </methods>
+      </class> <!-- com.lisyx.extendreports.pcTwo -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
