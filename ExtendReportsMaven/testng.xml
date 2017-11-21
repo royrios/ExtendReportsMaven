@@ -7,15 +7,15 @@
       
     </classes>
     </test>
-     <test name="Test2">
-    <classes>
-          <class name="com.lisyx.extendreports.pcTwo"/> 
+<!--      <test name="Test2"> -->
+<!--     <classes> -->
+<!--           <class name="com.lisyx.extendreports.pcTwo"/>  -->
       
-    </classes>
-  </test> 
-   <test name="Test3">
-    <classes>
-          <class name="com.lisyx.extendreports.pcThree"/> 
-    </classes>
-  </test> <!-- Test -->
+<!--     </classes> -->
+<!--   </test>  -->
+<!--    <test name="Test3"> -->
+<!--     <classes> -->
+<!--           <class name="com.lisyx.extendreports.pcThree"/>  -->
+<!--     </classes> -->
+<!--   </test> Test -->
 </suite> <!-- Suite -->
